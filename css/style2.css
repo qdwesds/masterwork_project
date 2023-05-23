@@ -336,6 +336,13 @@ header .navMaster .navbar-brand {
   transform: translateY(-0.5rem);
 }
 
+@media screen and (max-width:992px) {
+  .product .product_content .product_img {
+    width: 300px;
+    margin: 20px auto 40px;
+  }
+}
+
 /* feature  */
 .feature .feature_content .feature_left {
   padding: 2rem;
@@ -513,6 +520,12 @@ footer .footer_top .footer_list a:hover {
 
 .footer_bottom .icon a:hover {
   color: #dc4f72;
+}
+
+@media screen and (max-width:992px ) {
+  .footer_bottom {
+    display: block !important;
+  }
 }
 
 /* backToTop  */
