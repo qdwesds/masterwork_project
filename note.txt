@@ -1,0 +1,11 @@
+Phân chia công việc
+Trần Tấn Quý:
+    - header
+    - footer
+    - Home 
+    - About
+    - Services
+Vũ Văn Thực:
+    - Blog Posts 
+    - 404 Page
+    - Contact
