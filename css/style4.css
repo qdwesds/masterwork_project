@@ -1,11 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Nunito', sans-serif;
-    padding-top: 70px;
+body {
+  font-family: "Nunito", sans-serif;
+  padding-top: 70px;
 }
 
 .section {
@@ -38,7 +38,8 @@ header .navMaster .navbar-brand {
   color: #dc4f72;
 }
 
-#navbarMaster .dropdown-item.active, .dropdown-item:active {
+#navbarMaster .dropdown-item.active,
+.dropdown-item:active {
   color: #dc4f72;
 }
 
@@ -133,7 +134,7 @@ header .navMaster .navbar-brand {
   color: white;
 }
 
-#navbarMaster .searchIcon i{
+#navbarMaster .searchIcon i {
   color: #5a5a5a;
   font-size: 15px;
   opacity: 0.7;
@@ -157,107 +158,107 @@ header .navMaster .navbar-brand {
   margin-left: 15px;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .quote {
     margin-top: 15px;
   }
 }
 
-  /* banner */
-  .banner {
-    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.92)),
-      url(./../img/banner.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    padding-top: 5rem;
-  }
-  
-  .banner .container {
-    padding-top: 5rem;
-  }
-  
-  .banner .banner_title h1 {
-    font-size: 50px;
-    line-height: 57.5px;
-    color: #2c3038;
-    font-weight: 700;
-  }
-  
-  .banner .banner_title p {
-    color: #2c3038;
-    font-size: 20px;
-    line-height: 28px;
-    max-width: 450px;
-  }
-  
-  .banner .banner_left a:hover {
-    color: white;
-    background-color: #dc4f72;
-    border-color: #dc4f72;
-  }
+/* banner */
+.banner {
+  background: linear-gradient(to right, white, rgba(255, 255, 255, 0.92)),
+    url(./../img/banner.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-top: 5rem;
+}
+
+.banner .container {
+  padding-top: 5rem;
+}
+
+.banner .banner_title h1 {
+  font-size: 50px;
+  line-height: 57.5px;
+  color: #2c3038;
+  font-weight: 700;
+}
+
+.banner .banner_title p {
+  color: #2c3038;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 450px;
+}
+
+.banner .banner_left a:hover {
+  color: white;
+  background-color: #dc4f72;
+  border-color: #dc4f72;
+}
 /* main  */
-.page{
-    max-width: 600px;
-    margin: auto;
+.page {
+  max-width: 600px;
+  margin: auto;
 }
-.page h1{
-    font-weight: 600;
-    font-size: 100px;
-    color: #dc4f72;
+.page h1 {
+  font-weight: 600;
+  font-size: 100px;
+  color: #dc4f72;
 }
-.page h2{
-    font-weight: 700;
-    color: #2c3038;
-    font-size: 30px;
-    margin-bottom: 10px;
+.page h2 {
+  font-weight: 700;
+  color: #2c3038;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-.page p{
-    margin-top: 1.5rem;
+.page p {
+  margin-top: 1.5rem;
 }
-.page form{
-    max-width: 450px;
-    margin: auto;
-    position: relative;
+.page form {
+  max-width: 450px;
+  margin: auto;
+  position: relative;
 }
-.page input{
-    width: 100%;
-    color:#2c3038;
-    background-color:#f7f9fc ;
-    padding: 16px 110px 12px 20px;
-    font-size: 16px;
-    line-height: 28px;
-    height: 58px;
-    border: none;
-    border-radius: 4px;
-    display: block;
-    font-weight: 500;
+.page input {
+  width: 100%;
+  color: #2c3038;
+  background-color: #f7f9fc;
+  padding: 16px 110px 12px 20px;
+  font-size: 16px;
+  line-height: 28px;
+  height: 58px;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  font-weight: 500;
 }
-.search-box button{
-    color: #fff;
-    background-color: #dc4f72f1;
-    font-size: 16px;
-    width: 100px;
-    font-weight: 500;
-    border: none;
-    top: 0;
-    right: 0;
-    height: 58px;
-    position: absolute;
+.search-box button {
+  color: #fff;
+  background-color: #dc4f72f1;
+  font-size: 16px;
+  width: 100px;
+  font-weight: 500;
+  border: none;
+  top: 0;
+  right: 0;
+  height: 58px;
+  position: absolute;
 }
-.search-box button:hover{
-    background-color: #dc4f72 !important;
-    color: white !important;
+.search-box button:hover {
+  background-color: #dc4f72 !important;
+  color: white !important;
 }
-.page a{
-    text-decoration: none;
-    font-weight: 700;
-    color: black;
-    display: block;
+.page a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  display: block;
 }
-.page a:hover{
-    color: #dc4f72;
+.page a:hover {
+  color: #dc4f72;
 }
 /* footer  */
 footer {
@@ -335,7 +336,6 @@ footer .footer_top .footer_list a:hover {
   margin-bottom: 15px;
 }
 
-
 .footer_bottom a {
   color: #2c3038;
   text-decoration: none;
@@ -358,7 +358,7 @@ footer .footer_top .footer_list a:hover {
   color: #dc4f72;
 }
 
-@media screen and (max-width:992px ) {
+@media screen and (max-width: 992px) {
   .footer_bottom {
     display: block !important;
   }
@@ -393,43 +393,38 @@ footer .footer_top .footer_list a:hover {
 }
 
 @media screen and (max-width: 992px) {
-    .page h1{
-        font-size: 70px;
-    }
-    
+  .page h1 {
+    font-size: 70px;
+  }
 }
 /* modal header */
 #modalHeader .modal-content input {
-    width: 100%;
-    height: 55px;
-    line-height: 25px;
-    color: #5a5a5a;
-    padding: 15px 20px 12px;
-    background-color: white;
-    outline: none;
-    border: 1px solid #eee;
-    border-radius: 0;
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 6px;
-    border-right: none;
-  }
-  
-  #modalHeader .modal-content button {
-    font-size: 17px;
-    line-height: 28px;
-    text-align: center;
-    color: #f5f9fc;
-    font-weight: 500;
-    height: 55px;
-    border: none;
-    background-color: #dc4f72;
-    padding: 0 25px;
-    border-left: none;
-    border-radius: initial;
-    border-bottom-right-radius: 6px;
-    border-top-right-radius: 6px;
-  }
+  width: 100%;
+  height: 55px;
+  line-height: 25px;
+  color: #5a5a5a;
+  padding: 15px 20px 12px;
+  background-color: white;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 0;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-right: none;
+}
 
-  
-
-
+#modalHeader .modal-content button {
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  color: #f5f9fc;
+  font-weight: 500;
+  height: 55px;
+  border: none;
+  background-color: #dc4f72;
+  padding: 0 25px;
+  border-left: none;
+  border-radius: initial;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}

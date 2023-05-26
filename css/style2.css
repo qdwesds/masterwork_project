@@ -204,7 +204,7 @@ header .navMaster .navbar-brand {
   margin-left: 15px;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .quote {
     margin-top: 15px;
   }
@@ -336,7 +336,7 @@ header .navMaster .navbar-brand {
   transform: translateY(-0.5rem);
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .product .product_content .product_img {
     width: 300px;
     margin: 20px auto 40px;
@@ -522,7 +522,7 @@ footer .footer_top .footer_list a:hover {
   color: #dc4f72;
 }
 
-@media screen and (max-width:992px ) {
+@media screen and (max-width: 992px) {
   .footer_bottom {
     display: block !important;
   }
